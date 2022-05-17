@@ -5,7 +5,7 @@ $in-border: #E4E8EC;
 // Bootstrap OR Variables
 $body-color: #000;
 $font-family-base: 'Roboto', sans-serif;
-$accordion-button-active-bg: $in-border;
+$accordion-button-active-bg: #F2F2F2;
 $accordion-button-active-color:  $body-color;
 $btn-border-radius: 10px;
 
@@ -26,6 +26,21 @@ body {
 		padding: 20px;
 	}
 }
+
+.in-btn-secondary {
+	background-color:#000 !important;
+	color: #fff;
+	border-color: transparent !important;
+	border:none !important;
+	&:hover {
+		background-color: #333 !important;
+	}
+	&.btn-lg {
+		padding: 20px;
+	}
+}
+
+
 
 .in-title-section {
 	font-size: 42px;
@@ -126,7 +141,8 @@ body {
 			background-image: url(../img/bullet_check.svg);
 			background-repeat: no-repeat;
 			background-position: 0 1px;
-			padding-left: 2em;
+			background-size: 40px;
+			padding-left: 4em;
 			padding-bottom: 1em;
 		}
 	}
