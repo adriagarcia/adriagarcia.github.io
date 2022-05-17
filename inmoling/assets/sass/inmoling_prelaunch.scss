@@ -1,0 +1,159 @@
+//Inmoling Variables
+$in-secondary: #787878;
+$in-border: #E4E8EC;
+
+// Bootstrap OR Variables
+$body-color: #000;
+$font-family-base: 'Roboto', sans-serif;
+$accordion-button-active-bg: $in-border;
+$accordion-button-active-color:  $body-color;
+$btn-border-radius: 10px;
+
+//Inmoling General
+body {
+	padding:50px 0;
+}
+
+.in-btn-primary {
+	background-image: linear-gradient(180deg, #FF931E 50%, #FF6F17 100%) !important;
+	color: #fff;
+	border-color: transparent !important;
+	border:none !important;
+	&:hover {
+		background-image: linear-gradient(180deg, #FF991E 50%, #FFB317 100%) !important;
+	}
+	&.btn-lg {
+		padding: 20px;
+	}
+}
+
+.in-title-section {
+	font-size: 42px;
+	margin:0;
+	font-weight: 700;
+}
+
+
+// Bootstrap
+@import "../bootstrap/scss/bootstrap";
+
+
+
+//--- .logo -------------------------------->
+.logo {
+	position: relative;
+	.arrow {
+		position: absolute;
+		top:0;
+		right: -10px;
+	}
+}
+
+//--- .hero-claim -------------------------------->
+.hero-claim {
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid $in-border;
+	h1 {
+		font-weight: 700;
+		font-size: 60px;
+	}
+	p {
+		font-size: 21px;
+		color: $in-secondary;
+		margin:0;
+	}
+}
+
+//--- .hero-catcher -------------------------------->
+.hero-catcher {
+	h1 {
+		font-weight: 700;
+		font-size: 42px;
+		.underline {
+			position: relative;
+			display: inline-block;
+			&:after {
+				content: ""; // ::before and ::after both require content
+		    position: absolute;
+		    bottom: -45px;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    background-image: url(../img/underline.svg);
+		    background-repeat: no-repeat;
+			}
+		}
+	}
+	p {
+		font-size: 16px;
+		color: $in-secondary;
+	}
+	ul {
+		margin:40px 0;
+		li {
+			font-size: 18px;
+			list-style-type: none;
+			background-image: url(../img/bullet_check.svg);
+			background-repeat: no-repeat;
+			background-position: 0 1px;
+			padding-left: 2em;
+			padding-bottom: 1em;
+		}
+	}
+}
+
+//--- .how-it-works -------------------------------->
+.how-it-works {
+	img {
+		margin: 20px 0;
+	}
+	h5 {
+		font-size: 21px;
+		font-weight: 700;
+	}
+	p {
+	}
+}
+
+//--- .become-rider -------------------------------->
+.become-rider {
+	ul {
+		margin-top: 20px;
+		li {
+			padding-bottom: 40px;
+			list-style-type: none;
+			background-image: url(../img/bullet_check.svg);
+			background-repeat: no-repeat;
+			background-position: 0 1px;
+			padding-left: 2em;
+			padding-bottom: 1em;
+		}
+	}
+}
+
+//--- .md-prelaunch -------------------------------->
+.md-prelaunch {
+	h4 {
+		font-size: 36px;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	p {
+		color: $in-secondary;
+	}
+}
+
+//--- footer -------------------------------->
+footer {
+	border-top: 1px solid $in-border;
+	padding-top: 20px;	
+	margin-top: 40px;
+	color: $in-secondary;
+	img {
+		vertical-align: middle;
+	}
+	ul {
+		margin-left: 30px;
+	}
+}
