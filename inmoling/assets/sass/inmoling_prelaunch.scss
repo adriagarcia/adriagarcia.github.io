@@ -12,6 +12,7 @@ $btn-border-radius: 10px;
 //Inmoling General
 body {
 	padding:50px 0;
+	border-top: 5px solid #FF991E;
 }
 
 .in-btn-primary {
@@ -128,6 +129,14 @@ body {
 		font-weight: 700;
 	}
 	p {
+	}
+	.deco {
+		position: relative;
+		.love {
+			position: absolute;
+			bottom:-20px;
+			right: -40px;
+		}
 	}
 }
 

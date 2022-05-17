@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
   padding: 50px 0;
+  border-top: 5px solid #FF991E;
 }
 
 .in-btn-primary {
@@ -10848,6 +10849,15 @@ textarea.form-control-lg {
   font-size: 21px;
   font-weight: 700;
 }
+.how-it-works .deco {
+  position: relative;
+}
+.how-it-works .deco .love {
+  position: absolute;
+  bottom: -20px;
+  right: -40px;
+}
+
 .become-rider ul {
   margin-top: 20px;
 }
