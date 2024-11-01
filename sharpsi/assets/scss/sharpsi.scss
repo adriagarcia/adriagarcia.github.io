@@ -1,0 +1,251 @@
+//Variables
+$sharpsi-brand-1: #fcfaee; //light yellow
+$sharpsi-brand-2: #232323; //gray dark
+$sharpsi-brand-3: #B8001F; //red
+$sharpsi-brand-4: #384B70; //blue
+
+//Overrides
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #222424;
+}
+.btn {
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+    &.btn-primary {
+        background-color: $sharpsi-brand-3;
+        border-color: $sharpsi-brand-3;
+        &:hover {
+            background-color: #CC0426;
+        }
+    }
+}
+
+//Hero
+.aux-nav-hero {
+    background-color: $sharpsi-brand-1;
+    position: relative;
+    .hero {
+        h1 {
+            font-family: "Poppins", sans-serif;
+            font-size: 82px;
+            text-align: center;
+            margin: 50px 0;
+            span {
+                color: $sharpsi-brand-3;
+            }
+            @media (max-width: 767.98px) {
+                font-size: 42px;
+            }
+        }
+        .testimonial {
+            .experience {
+                font-family: "Poppins", sans-serif;
+                font-size: 23px;
+            }
+            .innovation {
+                font-family: "Poppins", sans-serif;
+                font-size: 23px;
+                font-weight:300;
+            }
+        }
+    }
+    .deco-y {
+        background: url(../images/deco_hero_y.svg) 0 0 no-repeat;
+        width: 40px;
+        height: 660px;
+        position: absolute;
+        top: -200px;
+        left: 20px;
+    }
+    .deco-x {
+        background: url(../images/deco_hero_x.svg) 0 0 no-repeat;
+        width: 525px;
+        height: 40px;
+        position: absolute;
+        top: 100px;
+        right: 0px;
+    }
+}
+
+//Services
+.aux-services {
+    background-color: $sharpsi-brand-2;
+    position: relative;
+    color: #fff;
+    .services {
+        padding: 150px 0 100px 0;
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-size: 52px;
+            font-weight: 400;
+        }
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            margin: 50px 0;
+        }
+        .item-check {
+            padding:20px 20px 20px 70px;
+            background: #373737 url(../images/icon_check.svg) 20px 50% no-repeat;
+            font-size: 16px;
+            font-weight: 300;
+            margin:0 0 20px 0;
+        }
+        .contact {
+            margin-top: 50px;
+            a {
+                margin-left: 20px;
+            }
+        }
+        h3 {
+            font-family: "Poppins", sans-serif;
+            font-size: 28px;
+            font-weight: 400;
+            margin: 60px 0 20px 0;
+        }
+        ul {
+            font-weight: 300;
+            li {
+                margin-bottom:20px;
+            }
+        }
+    }
+    .deco-x {
+        background: url(../images/deco_services_x.svg) 0 0 no-repeat;
+        width: 830px;
+        height: 40px;
+        position: absolute;
+        top: 40px;
+        right: 0px;
+    }
+    .deco-y {
+        background: url(../images/deco_services_y.svg) 0 0 no-repeat;
+        width: 98px;
+        height: 297px;
+        position: absolute;
+        top: 400px;
+        right: 0px;
+    }
+}
+
+//Mission & Contact
+.aux-mission-contact {
+    background-color: $sharpsi-brand-1;
+    padding: 80px 0;
+    position: relative;
+    .mission {
+        h2 {
+            font-family: "Poppins", sans-serif;
+            font-size: 72px;
+            margin-bottom: 40px;
+        }
+        .item {
+            margin-bottom:60px;
+            .heading {
+                background-color: #fff;
+                padding: 20px;
+                border-left: 4px solid $sharpsi-brand-3;
+                border-bottom: 4px solid $sharpsi-brand-4;
+                margin-bottom :20px;
+                h4 {
+                    font-family: "Poppins", sans-serif;
+                }
+                p {
+                    font-weight: 300;
+                    margin:0;
+                }
+            }
+            ul {
+                font-weight: 300;
+                li {
+                    margin-bottom:20px;
+                }
+            }
+        }
+    }
+    .contact {
+        margin-top: 50px;
+        height: 190px;
+        background-color: $sharpsi-brand-3;
+        border-radius: 0 100px 100px 0;
+        color: #fff;
+        padding: 20px 40px;
+        h5 {
+            font-family: "Poppins", sans-serif;
+            font-size: 57px;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            font-size: 24px;
+            margin:0;
+        }
+    }
+    .map {
+        position: relative;
+        margin:50px 0 0 20px;
+        height: 190px;
+        background: $sharpsi-brand-1 url(../images/map.jpg) 0 0 no-repeat;
+        border-radius: 100px 0 0 100px;
+        .info {
+            position: absolute;
+            top:10px;
+            left:20px;
+            width: 250px;
+            background-color: #fff;
+            padding: 10px 20px;
+            p {
+                font-family: "Poppins", sans-serif;
+                font-size: 16px;
+                margin:0;
+            }
+        }
+        .map-marker {
+            background: url(../images/map_marker.svg) 0 0 no-repeat;
+            width: 57px;
+            height: 95px;
+            position: absolute;
+            top: -20px;
+            left: 300px;
+        }
+    }
+    .deco-logo {
+        background: url(../images/deco_logo.svg) 0 0 no-repeat;
+        width: 195px;
+        height: 195px;
+        position: absolute;
+        top: -100px;
+        right: 50px;
+    }
+}
+
+
+.aux-footer {
+    background-color: $sharpsi-brand-2;
+    color: #fff;
+    font-weight: 300;
+    footer {
+        padding: 50px 0;
+        ul {
+            margin-top: 20px;
+            li {
+                a {
+                    color: #fff;
+                    &:hover {
+                        color: $sharpsi-brand-3;
+                    }
+                }
+            }
+        }
+        .copy-social {
+            border-top: 1px solid #343333;
+            padding-top: 20px;
+            margin-top: 20px;
+            p {
+                margin:0;
+            }
+        }
+    }
+}
