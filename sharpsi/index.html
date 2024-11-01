@@ -10,6 +10,7 @@
             integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
             crossorigin="anonymous"
         />
+        <link rel="stylesheet" href="assets/js/animate.css" />
         <link href="assets/css/sharpsi.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,6 +18,7 @@
     </head>
 
     <body>
+
         <div class="aux-nav-hero">
             <div class="container">
                 <nav class="navbar navbar-expand-lg py-4 navbar-sharpsi">
@@ -53,7 +55,7 @@
                 </nav>
 
                 <div class="hero">
-                    <h1 class=""><span>Transformation</span> digitale et gouvernance du SI</h1>
+                    <h1 class="wow pulse" data-wow-duration="1500ms"><span>Transformation</span> digitale et gouvernance du SI</h1>
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="img-marc">
@@ -81,9 +83,9 @@
                         <div class="col-lg-7">
                             <h2>Nos Services</h2>
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <p class="item-check">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p class="item-check">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                            <p class="item-check">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="item-check wow slideInLeft">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="item-check wow slideInLeft" data-wow-delay="1s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            <p class="item-check wow slideInLeft" data-wow-delay="2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             <p class="contact">Do you want an appointment? <a href="mailto:marc.arbogast@sharpsi.fr" class="btn btn-primary">Contact me</a></p>
                         </div>
                         <div class="col-lg-5">
@@ -93,7 +95,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeInDown">
                             <h3>DSI externalisée</h3>
                             <ul>
                                 <li><strong>Gestion partielle ou complète</strong> de votre système d’information</li>
@@ -103,7 +105,7 @@
                                 <li><strong>Flexibilité et réduction</strong> des coûts</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeInDown" data-wow-delay="1s">
                             <h3>Transformation digitale</h3>
                             <ul>
                                 <li><strong>Enrichissement et rationalisation</strong> du SI avec la consolidation des solutions existantes, ou l’intégration de nouvelles solutions lorsque c’est pertinent</li>
@@ -114,7 +116,7 @@
                                 <li><strong>Conduite du changement</strong> auprès des utilisateurs</li>
                             </ul>
                         </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 wow fadeInDown" data-wow-delay="2s">
                             <h3>Déploiement de Solutions ERP</h3>
                             <ul>
                                 <li><strong>Audit</strong> des besoins auprès des services métiers</li>
@@ -214,7 +216,7 @@
                                 <p>67000 Strasbourg</p>
                                 <p><a href="https://www.google.com/maps/place/21+Rue+de+la+Krutenau,+67000+Strasbourg,+Francia/@48.5803511,7.7551095,17z/data=!3m1!4b1!4m6!3m5!1s0x4796c8556ddccf89:0xed9d2e89d133e7bd!8m2!3d48.5803476!4d7.7576898!16s%2Fg%2F11bw49yg_6?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" target="_blank">View map &raquo;</a></p>
                             </div>
-                            <div class="map-marker"></div>
+                            <div class="map-marker wow pulse" data-wow-iteration="infinite" data-wow-duration="1500ms"></div>
                         </div>
                     </div>
                 </div>
@@ -249,5 +251,9 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
+        <script src="assets/js/wow.js"></script>
+        <script>
+        new WOW().init();
+        </script>
     </body>
 </html>
