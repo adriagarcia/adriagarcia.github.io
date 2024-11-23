@@ -17,6 +17,11 @@ body {
   background-color: #CC0426;
 }
 
+.navbar-collapse.show {
+  background: #F5F3E8;
+  padding: 10px;
+}
+
 .aux-nav-hero {
   background-color: #fcfaee;
   position: relative;
@@ -47,7 +52,12 @@ body {
     margin-bottom: 20px;
   }
 }
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+  .aux-nav-hero .hero h1 {
+    font-size: 62px;
+  }
+}
+@media (max-width: 991.98px) {
   .aux-nav-hero .hero .img-marc {
     display: none;
   }
@@ -56,14 +66,57 @@ body {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
 }
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .aux-nav-hero .hero .testimonial .experience {
+    font-size: 17px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .aux-nav-hero .hero .testimonial .experience {
+    text-align: center !important;
+  }
+}
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  .aux-nav-hero .hero .testimonial .experience {
+    font-size: 21px;
+  }
+}
 .aux-nav-hero .hero .testimonial .innovation {
   font-family: "Poppins", sans-serif;
   font-size: 23px;
   font-weight: 300;
 }
+@media (min-width: 991.98px) and (max-width: 1199.98px) {
+  .aux-nav-hero .hero .testimonial .innovation {
+    font-size: 17px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .aux-nav-hero .hero .testimonial .innovation {
+    text-align: center !important;
+  }
+}
+@media (min-width: 1199.98px) and (max-width: 1399.98px) {
+  .aux-nav-hero .hero .testimonial .innovation {
+    font-size: 21px;
+  }
+}
 @media (max-width: 767.98px) {
   .aux-nav-hero .hero .testimonial {
     padding-bottom: 20px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 1199.98px) {
+  .aux-nav-hero .hero .testimonial .btn {
+    font-size: 14px;
+  }
+}
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .aux-nav-hero .hero .testimonial p {
+    text-align: center !important;
+  }
+  .aux-nav-hero .hero .testimonial .btn {
+    font-size: 18px;
   }
 }
 .aux-nav-hero .deco-y {
